@@ -11,8 +11,8 @@ public class OlympicRings_Threaded {
 	// robot should draw one ring simultaneously with the other 4 robots.
 	public static void main(String args[]) {
 		Robot one = new Robot();
-		Robot two = new Robot();
-		Robot three = new Robot();
+		Robot two = new Robot("vic");
+		Robot three = new Robot("batman");
 		Robot four = new Robot();
 		Robot five = new Robot();
 
